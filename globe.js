@@ -98,7 +98,7 @@ DAT.Globe = function(container, opts) {
 		THREE.ImageUtils.crossOrigin = "";
 
 		uniforms["texture"].value = THREE.ImageUtils.loadTexture(
-			"http://cdn.rawgit.com/dataarts/webgl-globe/2d24ba30/globe/world.jpg"
+			"https://cdn.rawgit.com/dataarts/webgl-globe/2d24ba30/globe/world.jpg"
 		);
 
 		material = new THREE.ShaderMaterial({
