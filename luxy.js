@@ -125,7 +125,7 @@
 			},
 			wrapperInit: function(){
 				this.wrapper.style.width = '90%';
-				
+				this.wrapper.style.position = 'fixed';
 			},
 			targetsInit: function(elm,attr){
 				
